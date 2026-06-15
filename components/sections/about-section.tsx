@@ -3,6 +3,7 @@
 import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'framer-motion';
 import { useRef, useEffect } from 'react';
+import Link from 'next/link';
 import Herofive from '@/public/herofive.png';
 import Herosix from '@/public/herosix.png';
 const benefits = [
@@ -174,7 +175,9 @@ export default function AboutSection() {
               transition={{ duration: 0.5, delay: inView ? 0.7 : 0 }}
               className="self-start px-7 py-3 rounded-full bg-green-600 hover:bg-green-700 text-white text-[14px] font-semibold transition-colors duration-200 shadow-sm"
             >
-              Book Your Adventure
+              {/* Book Your Adventure */}
+               <Link href="/booking"  > Book Your Adventure </Link>
+              
             </motion.button>
           </motion.div>
 

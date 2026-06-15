@@ -7,7 +7,7 @@ import Heroone from '@/public/heroone.png';
 import Herotwo from '@/public/herotwo.png';
 import Herothree from '@/public/herothree.png';
 import Herofour from '@/public/herofour.png';
-
+import Link from 'next/link';
 const HERO_IMAGES = [
   { src: Heroone.src, position: 'center center' },
   { src: Herotwo.src, position: 'center center' },
@@ -139,7 +139,8 @@ export default function HeroSection() {
                 e.currentTarget.style.backgroundColor = '#3d9e4a';
               }}
             >
-              Book Your Transfer
+              {/* Book Your Transfer */}
+               <Link  href="/booking">Book Your Transfer</Link>
             </button>
 
             <button
@@ -167,7 +168,8 @@ export default function HeroSection() {
                 e.currentTarget.style.backgroundColor = 'rgba(255,255,255,0.15)';
               }}
             >
-              View All Services
+              
+              <Link  href="/pricing">View All Services</Link>
             </button>
           </motion.div>
         </div>

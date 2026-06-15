@@ -75,7 +75,10 @@ export default function Header() {
                 : 'bg-[#3d9e4a] text-white border-[#3d9e4a] backdrop-blur-md hover:bg-white/20'
             }`}
           >
-            Book Now
+            {/* Book Now */}
+                 <Link  href="/pricing">
+                            Book Now
+                          </Link>
           </button>
         </div>
 

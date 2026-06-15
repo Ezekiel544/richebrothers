@@ -40,11 +40,12 @@ export default function Footer() {
             </div>
 
             <Link
-              href="#contact"
+              href="/pricing"
               className="inline-flex items-center justify-center gap-2 rounded-full bg-green-600 px-6 py-3 text-sm font-bold text-white transition hover:bg-green-700 focus:outline-none focus:ring-4 focus:ring-green-600/25"
             >
               Book Now
               <ArrowRight className="h-4 w-4" />
+              
             </Link>
           </div>
         </div>

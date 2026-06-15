@@ -3,6 +3,7 @@
 import { motion, useAnimation, useInView } from 'framer-motion';
 import { useRef, useEffect } from 'react';
 import { MapPinned, CircleCheck, ShieldCheck, Route } from 'lucide-react';
+import Link from 'next/link';
 
 const whyChooseUs = [
   {
